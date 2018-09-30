@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        print(reverse(text: "stressed"))
     }
 
     
@@ -23,5 +26,10 @@ class ViewController: UIViewController {
         print("hello every one")
     }
 
+    
+    func reverse(text: String) -> String {
+        return String(text.reversed())
+    }
+    
 }
 
