@@ -13,12 +13,17 @@ class ViewController: UIViewController {
     let data = "he is always right"
     let ujala = "what is pity man"
 
+    @IBOutlet weak var labeltext: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         
         print(reverse(text: "stressed"))
+        
+        labeltext.text = reverse(text: "stressed")
     }
 
     
