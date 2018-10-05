@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         
         print(reverse(text: "stressed"))
         
+        
+        print("hahaha")
         labeltext.text = reverse(text: "stressed")
     }
 
